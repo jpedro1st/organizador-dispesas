@@ -1,0 +1,37 @@
+Exemplo de saída no terminal
+Ao executar o programa, os valores serão exibidos antes e depois da ordenação.
+
+====================================
+   ORGANIZADOR DE DESPESAS PESSOAIS
+====================================
+
+Despesas antes da ordenacao:
+Despesa 1: R$ 150.00
+Despesa 2: R$ 45.90
+Despesa 3: R$ 320.00
+Despesa 4: R$ 89.50
+Despesa 5: R$ 210.75
+Despesa 6: R$ 35.00
+Despesa 7: R$ 500.00
+Despesa 8: R$ 120.00
+Despesa 9: R$ 75.25
+Despesa 10: R$ 180.00
+
+Despesas apos a ordenacao:
+Criterio: ordem decrescente (maior para o menor)
+
+1. R$ 500.00
+2. R$ 320.00
+3. R$ 210.75
+4. R$ 180.00
+5. R$ 150.00
+6. R$ 120.00
+7. R$ 89.50
+8. R$ 75.25
+9. R$ 45.90
+10. R$ 35.00
+
+Maior despesa: R$ 500.00
+Menor despesa: R$ 35.00
+
+Ordenacao concluida com sucesso!
