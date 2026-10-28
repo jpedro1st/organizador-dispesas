@@ -1,0 +1,31 @@
+Como funciona o algoritmo?
+O Bubble Sort organiza os dados por meio de comparações entre posições vizinhas do array.
+
+Exemplo de uma comparação
+Ordenação decrescente: o maior valor deve ficar à esquerda.
+
+Posição j
+
+150
+Posição j + 1
+
+320
+Como 150 é menor que 320, ocorre a troca.
+
+320
+150
+A operação se repete até que todos os valores estejam na ordem desejada.
+
+As partes principais do código são:
+
+Array: float despesas[TAM] armazena os 10 valores monetários.
+
+Laço externo: for (i = 0; i < TAM - 1; i++) controla as passagens pelo array.
+
+Laço interno: for (j = 0; j < TAM - 1 - i; j++) percorre os elementos adjacentes.
+
+Condicional: if (despesas[j] < despesas[j + 1]) verifica se a troca é necessária.
+
+Variável temporária: temp permite trocar os valores sem perder nenhum deles.
+
+A aplicação não utiliza qsort() nem outra função pronta de ordenação.
